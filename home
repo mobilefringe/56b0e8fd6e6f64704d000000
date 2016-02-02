@@ -1,4 +1,5 @@
-var iframe = document.createElement("iframe");
+<script>
+    var iframe = document.createElement("iframe");
 
     iframe.style.border = "none";
     iframe.style.width = "1px";
@@ -15,3 +16,5 @@ var iframe = document.createElement("iframe");
     setTimeout(function(){
         window.location = fallbackUrl; //fallback url
     },300);
+
+</script>
