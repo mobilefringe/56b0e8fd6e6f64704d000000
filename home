@@ -7,7 +7,7 @@
     iframe.onload = function () {
         document.location = alt;
     };
-    iframe.src = "intagram://"; //iOS app schema url
+    iframe.src = "instagram://"; //iOS app schema url
 
     window.onload = function(){
         document.body.appendChild(iframe);
