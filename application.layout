@@ -21,5 +21,18 @@
 <body onload="tryOpenApp()">
     
 </body>
+<script>
+function tryOpenApp() {
+    var iframe = document.createElement("iframe");
+    iframe.style.border = "none";
+    iframe.style.width = "1px";
+    iframe.style.height = "1px";
+    iframe.src = "fb://feed/";
+    document.body.appendChild(iframe);
+}
+    // setTimeout(function(){
+    //     window.location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"; //fallback url
+    // },1000);
 
+</script>
 </html>
