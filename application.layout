@@ -22,7 +22,7 @@
         link = apps[name].website
     }
     app_link = name + "://applaunch" + "?mode=routing&fromStoreID=20766&toStoreID=20784&directoryBoardXCoordinate=1125&directoryBoardYCoordinate=1680"
-    alert(link)
+    alert(app_link)
     // setTimeout(function(){
     //     window.location = link; 
     // },1000);
