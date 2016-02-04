@@ -9,7 +9,7 @@
 </body>
 <script>
     var device = navigator.userAgent;
-    if(device.userAgent.match(/(iPod|iPhone|iPad)/)){
+    if(device.match(/(iPod|iPhone|iPad)/)){
         alert("ios")
     }
     // setTimeout(function(){
