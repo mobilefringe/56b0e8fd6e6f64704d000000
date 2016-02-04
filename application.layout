@@ -10,9 +10,9 @@
 <script>
     var device = navigator.userAgent;
     console.log(device)
-    setTimeout(function(){
-        window.location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"; //fallback url
-    },1000);
+    // setTimeout(function(){
+    //     window.location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"; //fallback url
+    // },1000);
 
 </script>
 </html>
