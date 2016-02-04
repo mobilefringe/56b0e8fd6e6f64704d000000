@@ -12,13 +12,13 @@
     var name = "tslv"
     var device = navigator.userAgent;
     if(device.match(/(iPod|iPhone|iPad)/)){
-        link = apps["name"].ios
+        link = apps[name].ios
     }
     else if(device.match(/(Android)/)){
-        link = apps["name"].play
+        link = apps[name].play
     }
     else {
-        link = apps["name"].website
+        link = apps[name].website
     }
     alert(link)
     // setTimeout(function(){
