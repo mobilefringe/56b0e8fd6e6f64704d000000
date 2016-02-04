@@ -4,11 +4,8 @@
     <!--Update each web pages SEO to set values for {{meta_title}}, {{meta_description}}, {{meta_keywords}} -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{meta_description}}">
-    <meta name="keywords" content="{{meta_keywords}}">
-    <meta name="author" content="">
-    <title>{{meta_title}}</title>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <title></title>
 
    
     <!--CSS-->
@@ -22,14 +19,7 @@
     
 </body>
 <script>
-function tryOpenApp() {
-    var iframe = document.createElement("iframe");
-    iframe.style.border = "none";
-    iframe.style.width = "1px";
-    iframe.style.height = "1px";
-    iframe.src = "fb://feed/";
-    document.body.appendChild(iframe);
-}
+
     // setTimeout(function(){
     //     window.location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"; //fallback url
     // },1000);
