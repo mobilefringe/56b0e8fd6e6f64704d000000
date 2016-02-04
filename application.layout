@@ -13,9 +13,9 @@
     var app_link = "";
     var routing = getUrlParameter("routing");
     var fromStoreID = getUrlParameter("fromStoreID");
-    var routing = getUrlParameter();
-    var routing = getUrlParameter();
-    var routing = getUrlParameter();
+    var toStoreID = getUrlParameter("toStoreID");
+    var directoryBoardXCoordinate = getUrlParameter("directoryBoardXCoordinate");
+    var directoryBoardYCoordinate = getUrlParameter("directoryBoardYCoordinate");
     
     var device = navigator.userAgent;
     if(device.match(/(iPod|iPhone|iPad)/)){
