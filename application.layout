@@ -51,7 +51,8 @@
     setTimeout(function(){
         window.location = link; 
     },1000);
-    //     window.location = 
+    window.location = app_link;
+
 
 
 </script>
