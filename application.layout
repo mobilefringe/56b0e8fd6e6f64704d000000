@@ -12,7 +12,7 @@
     
     var device = navigator.userAgent;
     if(device.match(/(iPod|iPhone|iPad)/)){
-        location = apps.tslv.ios
+        link = apps.tslv.ios
     }
     else if(device.match(/(Android)/)){
         location = apps.tslv.play
