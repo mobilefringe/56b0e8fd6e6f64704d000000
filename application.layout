@@ -28,7 +28,7 @@
     
     var app_link = "";
     var appname = getUrlParameter("appname");
-    var routing = getUrlParameter("routing");
+    var mode = getUrlParameter("mode");
     var fromStoreID = getUrlParameter("fromStoreID");
     var toStoreID = getUrlParameter("toStoreID");
     var directoryBoardXCoordinate = getUrlParameter("directoryBoardXCoordinate");
@@ -44,7 +44,7 @@
     else {
         link = apps[appname].website
     }
-    app_link = appname + "://applaunch?mode=routing=" + routing + "&fromStoreID=" + fromStoreID + "&toStoreID=" + toStoreID + "&directoryBoardXCoordinate=" + directoryBoardXCoordinate + "&directoryBoardYCoordinate=" + directoryBoardYCoordinate;
+    app_link = appname + "://applaunch?mode=mode=" + mode + "&fromStoreID=" + fromStoreID + "&toStoreID=" + toStoreID + "&directoryBoardXCoordinate=" + directoryBoardXCoordinate + "&directoryBoardYCoordinate=" + directoryBoardYCoordinate;
     alert(app_link)
     // setTimeout(function(){
     //     window.location = link; 
