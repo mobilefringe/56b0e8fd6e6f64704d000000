@@ -9,7 +9,7 @@
 </body>
 <script>
     var apps = {"tslv" : {"ios" : "https://itunes.apple.com/ca/app/town-square/id404929057?mt=8", "play" : "https://play.google.com/store/apps/details?id=com.mobilefringe.townsquarelv", "website" : "http://www.mytownsquarelasvegas.com"}};
-    var name = "tslv";
+    var app_name = "getUrlParameter("routing");";
     
     var app_link = "";
     var routing = getUrlParameter("routing");
