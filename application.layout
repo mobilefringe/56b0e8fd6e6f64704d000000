@@ -20,15 +20,15 @@
     
     var device = navigator.userAgent;
     if(device.match(/(iPod|iPhone|iPad)/)){
-        link = apps[name].ios
+        link = apps[appname].ios
     }
     else if(device.match(/(Android)/)){
-        link = apps[name].play
+        link = apps[appname].play
     }
     else {
-        link = apps[name].website
+        link = apps[appname].website
     }
-    app_link = name + "://applaunch" + "?mode=routing&fromStoreID=20766&toStoreID=20784&directoryBoardXCoordinate=1125&directoryBoardYCoordinate=1680"
+    app_link = appname + "://applaunch" + "?mode=routing&fromStoreID=20766&toStoreID=20784&directoryBoardXCoordinate=1125&directoryBoardYCoordinate=1680"
     alert(app_link)
     // setTimeout(function(){
     //     window.location = link; 
