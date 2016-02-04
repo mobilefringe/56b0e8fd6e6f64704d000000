@@ -13,7 +13,7 @@
         alert("ios")
     }
     else if(device.match(/(Android)/)){
-        alert("ios")
+        alert("Android")
     }
     // setTimeout(function(){
     //     window.location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"; //fallback url
