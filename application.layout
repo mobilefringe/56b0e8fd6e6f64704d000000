@@ -28,7 +28,7 @@
     else {
         link = apps[appname].website
     }
-    app_link = appname + "://applaunch?mode=routing=" + routing + "&fromStoreID=" + 20766 + "&toStoreID=" + 20784 + "&directoryBoardXCoordinate=" + 1125 "&directoryBoardYCoordinate=" + 1680 +" +
+    app_link = appname + "://applaunch?mode=routing=" + routing + "&fromStoreID=" + 20766 + "&toStoreID=" + 20784 + "&directoryBoardXCoordinate=" + 1125 "&directoryBoardYCoordinate=" + 1680;
     alert(app_link)
     // setTimeout(function(){
     //     window.location = link; 
