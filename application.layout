@@ -3,16 +3,8 @@
 <head>
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <title>Routing</title>
-
-   
-    <!--CSS-->
-    <link href="/application.css" rel="stylesheet">
-    <!--Javascript-->
-    <script src="/application.js"></script>
-
 </head>
-
-<body onload="tryOpenApp()">
+<body>
     
 </body>
 <script>
