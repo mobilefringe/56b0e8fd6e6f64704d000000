@@ -9,16 +9,9 @@
 </body>
 <script>
     var device = navigator.userAgent;
-    var location = "";
-    // if(device.userAgent.match(/(iPod|iPhone|iPad)/)){
-    //     location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"
-    // }
-    // if(device.userAgent.match(/(Android)/)){
-    //     location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"
-    // }
-    console.log(location)
+    alert(device)
     // setTimeout(function(){
-    //     window.location = location; //fallback url
+    //     window.location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"; //fallback url
     // },1000);
 
 </script>
