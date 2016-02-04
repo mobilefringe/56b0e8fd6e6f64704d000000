@@ -20,7 +20,7 @@
     else {
         link = apps.tslv.website
     }
-    console.log(link)
+    alert(link)
     // setTimeout(function(){
     //     window.location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"; //fallback url
     // },1000);
