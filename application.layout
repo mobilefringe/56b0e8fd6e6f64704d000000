@@ -22,7 +22,7 @@
         link = apps[name].website
     }
     alert(link)
-    var
+    app_link = name + "://" + 
     // setTimeout(function(){
     //     window.location = link; 
     // },1000);
