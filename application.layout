@@ -45,11 +45,13 @@
         link = apps[appname].website
     }
     app_link = appname + "://applaunch?mode=mode=" + mode + "&fromStoreID=" + fromStoreID + "&toStoreID=" + toStoreID + "&directoryBoardXCoordinate=" + directoryBoardXCoordinate + "&directoryBoardYCoordinate=" + directoryBoardYCoordinate;
-    alert(app_link)
-    alert(link)
-    // setTimeout(function(){
-    //     window.location = link; 
-    // },1000);
+    
+    
+    window.location = app_link;
+    
+    setTimeout(function(){
+        window.location = link; 
+    },1000);
 
 
 
