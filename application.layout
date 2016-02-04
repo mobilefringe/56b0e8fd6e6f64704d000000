@@ -15,12 +15,12 @@
         link = apps.tslv.ios
     }
     else if(device.match(/(Android)/)){
-        location = apps.tslv.play
+        link = apps.tslv.play
     }
     else {
-        location = apps.tslv.website
+        link = apps.tslv.website
     }
-    console.log(location)
+    console.log(link)
     // setTimeout(function(){
     //     window.location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"; //fallback url
     // },1000);
