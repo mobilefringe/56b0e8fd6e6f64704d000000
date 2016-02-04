@@ -47,12 +47,11 @@
     app_link = appname + "://applaunch?mode=mode=" + mode + "&fromStoreID=" + fromStoreID + "&toStoreID=" + toStoreID + "&directoryBoardXCoordinate=" + directoryBoardXCoordinate + "&directoryBoardYCoordinate=" + directoryBoardYCoordinate;
     
     
-    window.location = app_link;
     
     setTimeout(function(){
         window.location = link; 
     },1000);
-
+    //     window.location = 
 
 
 </script>
