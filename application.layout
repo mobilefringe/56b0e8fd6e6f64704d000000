@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--Update each web pages SEO to set values for {{meta_title}}, {{meta_description}}, {{meta_keywords}} -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    <title></title>
+    <title>Routing</title>
 
    
     <!--CSS-->
