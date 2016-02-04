@@ -12,7 +12,7 @@
     if(device.match(/(iPod|iPhone|iPad)/)){
         alert("ios")
     }
-    if(device.match(/(iPod|iPhone|iPad)/)){
+    else if(device.match(/(Android)/)){
         alert("ios")
     }
     // setTimeout(function(){
