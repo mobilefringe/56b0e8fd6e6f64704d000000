@@ -8,12 +8,16 @@
     
 </body>
 <script>
+    var apps = {"tslv" : {"ios" : "https://itunes.apple.com/ca/app/town-square/id404929057?mt=8", "play" : "https://play.google.com/store/apps/details?id=com.mobilefringe.townsquarelv"}}
     var device = navigator.userAgent;
     if(device.match(/(iPod|iPhone|iPad)/)){
         alert("ios")
     }
     else if(device.match(/(Android)/)){
         alert("Android")
+    }
+    else {
+        location = 
     }
     // setTimeout(function(){
     //     window.location = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"; //fallback url
