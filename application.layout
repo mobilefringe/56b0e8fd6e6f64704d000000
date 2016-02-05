@@ -44,7 +44,7 @@
     else {
         link = apps[appname].website
     }
-    app_link = appname + "://applaunch?mode=mode=" + mode + "&fromStoreID=" + fromStoreID + "&toStoreID=" + toStoreID + "&directoryBoardXCoordinate=" + directoryBoardXCoordinate + "&directoryBoardYCoordinate=" + directoryBoardYCoordinate;
+    app_link = appname + "://applaunch?mode=" + mode + "&fromStoreID=" + fromStoreID + "&toStoreID=" + toStoreID + "&directoryBoardXCoordinate=" + directoryBoardXCoordinate + "&directoryBoardYCoordinate=" + directoryBoardYCoordinate;
     
     
     window.location = app_link;
