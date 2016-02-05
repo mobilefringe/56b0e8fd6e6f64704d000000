@@ -24,7 +24,7 @@
     };
     
 
-    var apps = {"tslv" : {"ios" : "https://itunes.apple.com/ca/app/town-square/id404929057", "play" : "market://details?id=com.mobilefringe.townsquarelv", "website" : "http://www.mytownsquarelasvegas.com"}};
+    var apps = {"tslv" : {"ios" : "https://itunes.apple.com/ca/app/town-square/id404929057", "play" : "https://play.google.com/store/apps/details?id=com.mobilefringe.townsquarelv", "website" : "http://www.mytownsquarelasvegas.com"}};
     
     var app_link = "";
     var appname = getUrlParameter("appname");
